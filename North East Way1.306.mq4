@@ -39,7 +39,7 @@ extern string _mm_="=========Money Management Settings========="  ;
 extern int   MaxOtherMagics=0  ;    //Number of magics no more:
 extern int   MaxOtherSymbols=0  ;    //Number of symbols no more:
 extern  TypeBFLC  BaseForLotCalc=0  ;    //For autolot use
-extern doble virtBalance=0  ;    //Additional funds in account currency
+extern double virtBalance = 0; // Additional funds in account currency
 extern double fix_balance=0  ;    //Or use fix balance in account currency
 extern double USD_for_001=0  ;    //AutoMM. Aggressive=1000, Conservative=5000.
 extern double Lots=0.01  ;    //Fix lot if AutoMM=0
